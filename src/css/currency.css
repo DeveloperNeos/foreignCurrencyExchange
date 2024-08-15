@@ -1,0 +1,86 @@
+.currency-bg {
+  background-image: url(../images/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency-div {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: transparent;
+  width: 50%;
+}
+
+.currency-div input {
+  height: 30px;
+  width: 70px;
+  background: aliceblue;
+  border-radius: 10%;
+  margin: 0px 5px;
+}
+
+.currency-div select {
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  color: brown;
+  font-weight: 900;
+}
+
+.currency-div button {
+  margin: 25px 0px;
+
+  width: 100px;
+  background-color: azure;
+  border-radius: 10%;
+  border: 2px solid #ccc;
+  padding: 12px 15px;
+  font-weight: 900;
+  letter-spacing: 0.4px;
+}
+.currency-div button:hover {
+  background-color: rgb(179, 203, 203);
+  transition: all 0.3s ease-in-out;
+}
+.currency-div .head {
+  background-color: black;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.currency-div h4 {
+  font-size: 20px;
+  color: honeydew;
+  letter-spacing: 1px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.right-arrow {
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: blanchedalmond;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+.currency-div .input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
